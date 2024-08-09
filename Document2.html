@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://127.0.0.1:5500/Qloq/M.J/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<style>
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse ;
+}
+
+</style>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+
+
+
+
+<h1>Bienvenido a mi Página Web</h1>
+
+<!-- Tabla Avanzada -->
+<h2>Tabla de Datos Avanzada</h2>
+<table>
+<thead>
+    <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Ocupación</th>
+        <th>Ciudad</th>
+        <th>Edad</th>
+        <th>Email</th>
+        <th>Género</th>
+        <th>Intereses</th>
+        <th>Deportes</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>1</td>
+        <td>Juan</td>
+        <td>Pérez</td>
+        <td>Ingeniero</td>
+        <td>Valverde</td>
+        <td>28</td>
+        <td>juan.perez@example.com</td>
+        <td>Masculino</td>
+        <td>Lectura, Música</td>
+        <td>Fútbol</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>María</td>
+        <td>López</td>
+        <td>Doctora</td>
+        <td>Santo Domingo</td>
+        <td>34</td>
+        <td>maria.lopez@example.com</td>
+        <td>Femenino</td>
+        <td>Viajes, Cine</td>
+        <td>Tenis</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Carlos</td>
+        <td>García</td>
+        <td>Arquitecto</td>
+        <td>Distrito Nacional</td>
+        <td>40</td>
+        <td>carlos.garcia@example.com</td>
+        <td>Masculino</td>
+        <td>Arte, Música</td>
+        <td>Baloncesto</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Lucía</td>
+        <td>Martínez</td>
+        <td>Abogada</td>
+        <td>Santiago</td>
+        <td>29</td>
+        <td>lucia.martinez@example.com</td>
+        <td>Femenino</td>
+        <td>Cine, Lectura</td>
+        <td>Natación</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Pedro</td>
+        <td>Gómez</td>
+        <td>Profesor</td>
+        <td>Santo Domingo</td>
+        <td>37</td>
+        <td>pedro.gomez@example.com</td>
+        <td>Masculino</td>
+        <td>Deportes, Viajes</td>
+        <td>Ciclismo</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Laura</td>
+        <td>Rodríguez</td>
+        <td>Diseñadora</td>
+        <td>Boca chica</td>
+        <td>32</td>
+        <td>laura.rodriguez@example.com</td>
+        <td>Femenino</td>
+        <td>Arte, Viajes</td>
+        <td>Voleibol</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Andrés</td>
+        <td>Fernández</td>
+        <td>Chef</td>
+        <td>Bonao</td>
+        <td>45</td>
+        <td>andres.fernandez@example.com</td>
+        <td>Masculino</td>
+        <td>Cocina, Lectura</td>
+        <td>Fútbol</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Ana</td>
+        <td>Suárez</td>
+        <td>Fotógrafa</td>
+        <td>La Romana</td>
+        <td>26</td>
+        <td>ana.suarez@example.com</td>
+        <td>Femenino</td>
+        <td>Fotografía, Cine</td>
+        <td>Escalada</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Raúl</td>
+        <td>Jiménez</td>
+        <td>Desarrollador</td>
+        <td>Santo Domingo Oeste</td>
+        <td>38</td>
+        <td>raul.jimenez@example.com</td>
+        <td>Masculino</td>
+        <td>Tecnología, Música</td>
+        <td>Atletismo</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Elena</td>
+        <td>Hernández</td>
+        <td>Psicóloga</td>
+        <td>Santo Domingo Este</td>
+        <td>31</td>
+        <td>elena.hernandez@example.com</td>
+        <td>Femenino</td>
+        <td>Lectura, Cine</td>
+        <td>Yoga</td>
+    </tr>
+</tbody>
+</table>
+
+<!-- Formulario -->
+<h2>Formulario de Contacto</h2>
+<form action="http://127.0.0.1:5500/Qloq/M.J/index.html#">
+<label for="name">Nombre:</label>
+<input type="text" id="name" name="name" required="">
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required="">
+
+<label for="age">Edad:</label>
+<input type="number" id="age" name="age" required="">
+
+<label for="gender">Género:</label>
+<select id="gender" name="gender">
+    <option value="male">Masculino</option>
+    <option value="female">Femenino</option>
+    <option value="other">Otro</option>
+</select>
+
+<label for="occupation">Ocupación:</label>
+<input type="text" id="occupation" name="occupation" required="">
+
+<label for="city">Ciudad:</label>
+<input type="text" id="city" name="city" required="">
+
+<label for="interests">Intereses:</label>
+<input type="checkbox" id="sports" name="interests" value="sports">
+<label for="sports">Deportes</label><br>
+<input type="checkbox" id="music" name="interests" value="music">
+<label for="music">Música</label><br>
+<input type="checkbox" id="travel" name="interests" value="travel">
+<label for="travel">Viajes</label><br>
+<input type="checkbox" id="reading" name="interests" value="reading">
+<label for="reading">Lectura</label><br>
+<input type="checkbox" id="art" name="interests" value="art">
+<label for="art">Arte</label><br>
+<input type="checkbox" id="cine" name="interests" value="cine">
+<label for="cine">Cine</label><br>
+
+<label for="feedback">Comentarios:</label>
+<textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
+
+<input type="submit" value="Enviar">
+</form></body></html>
